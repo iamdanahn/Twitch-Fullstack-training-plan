@@ -26,4 +26,5 @@ Link - https://www.atlassian.com/git/tutorials/git-ssh
 SSH keys are used to authenticate secure connections. 
 Following this guide, you will be able to create and start using an SSH key. Git is capable of using SSH keys instead of traditional  password authentication when pushing or pulling to remote repositories. Modern hosted git solutions like Bitbucket support SSH key authentication.
 
-
+## Git Stash
+Link - https://www.atlassian.com/git/tutorials/saving-changes/git-stash

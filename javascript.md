@@ -6,6 +6,8 @@ https://javascript.info/
 a special program called the "JS Engine"
   - V8 (Chrome & Opera)
   - SpiderMonkey (Firefox)
+* Undefined => value is not assigned yet
+* Null => "empty" or "unknown" value
 
 
 ## What can JS do?
@@ -44,3 +46,27 @@ Once it is used, it cannot be undone
 * Non-latin letters are allowed, but not recommended
 * Reserved words cannot be used (let, class, return, function)
 
+## Browser specific functions
+* `alert(msg)` - shows a popup msg
+* `prompt(title, [default])` - shows a popup msg with an input field for the user to fill out
+* `confirm(question)` - shows a popup msg with a question and two btns: OK and cancel
+
+## Data types
+1. Numbers - ints or floats, limited by 2^53-1
+2. Bigint - int #s of arbitraty length
+3. Strings
+4. Boolean
+5. Null - Unkown values
+6. Undefined - unassigned values
+7. Object
+8. Symbols
+Can check types with `typeof()`
+
+## Type conversions
+* `String(value)` - converts value to String
+* `Number(value)` - converts value to Number
+Numeric conversion rules:
+* undefined ==> NaN
+* null ==> 0
+* true & false ==> 1 & 0
+* String ==> whitespaces from start and end are removed. If empty, 0 else, NaN

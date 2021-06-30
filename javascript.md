@@ -28,3 +28,19 @@ This is called `Same Origin Policy`. IF they want to communicate, both pages mus
 * Dart - Standalone lang that has its own engine that runs in non-browser env (like mobile)
 * Brython - Python transpiler to JS that enables writing in pure Python w/o JS
 * Kotlin - modern, concise, sand safe programming lang that can be in browser or node.
+
+
+## "use strict"
+Keeps the old code (pre ES5) working. Anything below it will be in `strict` mode. 
+(Generally its placed at the very top)
+Once it is used, it cannot be undone
+- Modern JS enables "use strict" automatically.
+
+
+## Variable naming
+2 restrictions in naming:
+1. Name must contain only letters, digits, or the symbols $ or _
+2. First char must not be a digit
+* Non-latin letters are allowed, but not recommended
+* Reserved words cannot be used (let, class, return, function)
+
